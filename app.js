@@ -54,9 +54,9 @@ function createCard(pokemon) {
         height="150"
     />
     <div class="card-body">
-        <h5 class="card-title" style="text-transform: capitalize">
+        <h3 class="card-title" style="text-transform: capitalize">
             ${pokemon.name}
-        </h5>
+        </h3>
         <div class="badge badge-warning">Height: ${pokemon.height}</div>
         <div class="badge badge-danger">Weight: ${pokemon.weight}</div>
     </div>
